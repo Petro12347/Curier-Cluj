@@ -1,89 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curier Rapid Cluj</title>
+    <title>Curier Cluj - Tarife și Abonamente</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            color: #333;
-            padding: 50px;
-        }
-        h1 { color: #007bff; }
-        p { font-size: 18px; }
-        .button {
-            display: inline-block;
-            padding: 15px 25px;
-            margin: 10px;
-            font-size: 18px;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .button.whatsapp { background-color: #25D366; }
-        .button.order { background-color: #007bff; }
-        .contact { margin-top: 20px; font-size: 20px; font-weight: bold; }
-        .abonament {
-            background-color: white;
-            padding: 20px;
-            margin: 20px auto;
-            border-radius: 10px;
-            width: 60%;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 20px; border-radius: 10px; }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border: 1px solid #ddd; }
+        th { background-color: #007bff; color: white; }
     </style>
 </head>
 <body>
-    <h1>Curier Rapid Cluj</h1>
-    <p>Livrări rapide în Cluj-Napoca pentru afaceri și persoane fizice.</p>
-    <p>✅ Transport rapid în 60-90 minute</p>
-    <p>✅ Livrări pentru florării, patiserii, piese auto & altele</p>
-    <p>✅ Tarife flexibile și abonamente</p>
+    <div class="container">
+        <h1>Tarife Curier Cluj</h1>
+        <table>
+            <tr>
+                <th>Distanță</th>
+                <th>Preț (RON)</th>
+            </tr>
+            <tr><td>5 km</td><td>14.30</td></tr>
+            <tr><td>10 km</td><td>28.60</td></tr>
+            <tr><td>20 km</td><td>57.20</td></tr>
+            <tr><td>50 km</td><td>143.00</td></tr>
+            <tr><td>100 km</td><td>286.00</td></tr>
+        </table>
+        
+        <h2>Tarife per kilogram (per km)</h2>
+        <table>
+            <tr>
+                <th>Greutate</th>
+                <th>Preț per km (RON)</th>
+            </tr>
+            <tr><td>1 kg</td><td>2.70</td></tr>
+            <tr><td>5 kg</td><td>2.70</td></tr>
+            <tr><td>10 kg</td><td>2.70</td></tr>
+            <tr><td>20 kg</td><td>2.70</td></tr>
+            <tr><td>50 kg</td><td>2.70</td></tr>
+            <tr><td>100 kg</td><td>2.70</td></tr>
+        </table>
 
-    <div class="abonament">
-        <h2>📦 Abonament BASIC</h2>
-        <p>🔹 10 livrări pe lună</p>
-        <p>💰 150 RON / lună</p>
-        <p>✅ Livrare în 60-90 minute</p>
-        <p>✅ Disponibil Luni - Vineri</p>
-        <a href="https://wa.me/40751828196?text=Salut!%20Vreau%20abonamentul%20BASIC!" class="button order">Alege acest abonament</a>
-    </div>
+        <h2>Abonamente Speciale</h2>
+        <table>
+            <tr>
+                <th>Tip Abonament</th>
+                <th>Preț (RON)</th>
+            </tr>
+            <tr><td>Basic (5 livrări/lună)</td><td>120</td></tr>
+            <tr><td>Standard (10 livrări/lună)</td><td>220</td></tr>
+            <tr><td>Premium (20 livrări/lună)</td><td>400</td></tr>
+            <tr><td>Business (50 livrări/lună)</td><td>900</td></tr>
+        </table>
 
-    <div class="abonament">
-        <h2>🚀 Abonament STANDARD</h2>
-        <p>🔹 25 livrări pe lună</p>
-        <p>💰 370 RON / lună</p>
-        <p>✅ Livrare prioritară în 60 minute</p>
-        <p>✅ Disponibil Luni - Sâmbătă</p>
-        <a href="https://wa.me/40751828196?text=Salut!%20Vreau%20abonamentul%20STANDARD!" class="button order">Alege acest abonament</a>
-    </div>
-
-    <div class="abonament">
-        <h2>🏆 Abonament PREMIUM</h2>
-        <p>🔹 50 livrări pe lună</p>
-        <p>💰 700 RON / lună</p>
-        <p>✅ Livrare ultra-prioritară în 45 minute</p>
-        <p>✅ Disponibil 7 zile / săptămână</p>
-        <p>✅ Asistență VIP pentru programări rapide</p>
-        <a href="https://wa.me/40751828196?text=Salut!%20Vreau%20abonamentul%20PREMIUM!" class="button order">Alege acest abonament</a>
-    </div>
-
-    <div class="abonament">
-        <h2>⚡ Abonament PERSONALIZAT</h2>
-        <p>🔹 Oricâte livrări ai nevoie</p>
-        <p>💰 Preț negociabil</p>
-        <p>✅ Ideal pentru firme mari</p>
-        <p>✅ Program flexibil</p>
-        <a href="https://wa.me/40751828196?text=Salut!%20Vreau%20un%20abonament%20personalizat!" class="button order">Solicită ofertă</a>
-    </div>
-
-    <a href="https://wa.me/40751828196?text=Salut!%20Vreau%20să%20mă%20programez%20pentru%20livrări." class="button whatsapp">Programează-te pe WhatsApp</a>
-
-    <div class="contact">
-        📞 Contact: 0751828196 | 📩 Email: razvanpetrovan1@gmail.com
+        <p><strong>Contact:</strong> WhatsApp: 0751828196 | Email: razvanpetrovan1@gmail.com</p>
     </div>
 </body>
 </html>
